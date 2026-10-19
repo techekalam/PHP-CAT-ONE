@@ -9,3 +9,6 @@ $TotalFiles=array_sum($Files);
 //display total number of books, pens and files
 echo "Total Books: ".$TotalBooks."<br>";
 echo "Total Pens: ".$TotalPens."<br>";  
+echo "Total Files: ".$TotalFiles."<br>";
+
+//overall cost
