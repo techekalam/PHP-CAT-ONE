@@ -24,3 +24,5 @@ echo "Cost of Books:" .$Books_total. "<br>";
 echo "Cost of Pens:" .$Pens_total. "<br>";
 echo "Cost of Files:" .$Files_total. "<br>";
 //overall cost
+$Overall_Cost = $Books_total + $Pens_total + $Files_total; 
+echo "Overall Cost:".$Overall_Cost. "<br>";
