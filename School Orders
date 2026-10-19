@@ -10,7 +10,6 @@ $TotalFiles=array_sum($Files);
 echo "Total Books: ".$TotalBooks."<br>";
 echo "Total Pens: ".$TotalPens."<br>";  
 echo "Total Files: ".$TotalFiles."<br>";
-
 //unit cost
 $Books_price = 500;
 $Pens_price = 1000;
