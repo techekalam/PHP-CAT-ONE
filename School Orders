@@ -5,3 +5,4 @@ $Files=[0,2,5,6,9];
 //array sum
 $TotalBooks=array_sum($Books);
 $TotalPens=array_sum($Pens);
+$TotalFiles=array_sum($Files);
