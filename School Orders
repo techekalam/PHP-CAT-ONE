@@ -18,3 +18,5 @@ $Files_price = 2000;
 //total cost of books, pens and files
 $Books_total = $Books_price* $TotalBooks;
 $Pens_total = $Pens_price* $TotalPens;
+$Files_total = $Files_price* $TotalFiles;
+//display total cost of books, pens and files
