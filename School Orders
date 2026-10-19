@@ -20,3 +20,5 @@ $Books_total = $Books_price* $TotalBooks;
 $Pens_total = $Pens_price* $TotalPens;
 $Files_total = $Files_price* $TotalFiles;
 //display total cost of books, pens and files
+echo "Cost of Books:" .$Books_total. "<br>";
+echo "Cost of Pens:" .$Pens_total. "<br>";
