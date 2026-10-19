@@ -35,3 +35,12 @@ else {
     $Discount = 0;
 }
 echo "Bulk_Discount:".$Discount. "<br>";
+$Final_cost =$Overall_Cost - $Discount;
+echo "Final_cost:".$Final_cost."<br>";
+//Remaining budget
+$Budget = 200000;
+$Remaining_budget = $Budget-$Final_cost;
+echo "Remaining_budget:"."$Remaining_budget". "<br>";
+}
+?>
+
