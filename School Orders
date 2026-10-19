@@ -26,3 +26,12 @@ echo "Cost of Files:" .$Files_total. "<br>";
 //overall cost
 $Overall_Cost = $Books_total + $Pens_total + $Files_total; 
 echo "Overall Cost:".$Overall_Cost. "<br>";
+
+//Bulk discount
+if ($Overall_Cost >= 100000){
+    $Discount = $Overall_Cost* 0.1;
+} 
+else {
+    $Discount = 0;
+}
+echo "Bulk_Discount:".$Discount. "<br>";
