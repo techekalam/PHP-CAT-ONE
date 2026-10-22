@@ -19,12 +19,12 @@ $Books_total = $Books_price* $TotalBooks;
 $Pens_total = $Pens_price* $TotalPens;
 $Files_total = $Files_price* $TotalFiles;
 //display total cost of books, pens and files
-echo "Cost of Books:" .$Books_total. "<br>";
-echo "Cost of Pens:" .$Pens_total. "<br>";
-echo "Cost of Files:" .$Files_total. "<br>";
+echo "Cost of Books:UGX\n" .$Books_total. "<br>";
+echo "Cost of Pens:UGX\n" .$Pens_total. "<br>";
+echo "Cost of Files:UGX\n" .$Files_total. "<br>";
 //overall cost
 $Overall_Cost = $Books_total + $Pens_total + $Files_total; 
-echo "Overall Cost:".$Overall_Cost. "<br>";
+echo "Overall Cost:UGX\n".$Overall_Cost. "<br>";
 
 //Bulk discount
 if ($Overall_Cost >= 100000){
@@ -35,11 +35,11 @@ else {
 }
 echo "Bulk_Discount:".$Discount. "<br>";
 $Final_cost =$Overall_Cost - $Discount;
-echo "Final_cost:".$Final_cost."<br>";
+echo "Final_cost:UGX\n".$Final_cost."<br>";
 //Remaining budget
 $Budget = 200000;
 $Remaining_budget = $Budget-$Final_cost;
-echo "Remaining_budget:"."$Remaining_budget". "<br>";
+echo "Remaining_budget:UGX\n"."$Remaining_budget". "<br>";
 }
 ?>
 
